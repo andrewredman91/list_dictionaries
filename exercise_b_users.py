@@ -66,7 +66,12 @@ print(users["Avril"]["pets"][0]["species"])
 smallest = min(users["Erik"]["lottery_numbers"])
 print(f'Smallest number in the list is : {smallest}.')
 # 6. Return an list of Avril's lottery numbers that are even
+even_numbers = even(users["Avril"]["lottery_numbers"])
+print(f'The even lottery numbers are: {even_numbers}.'
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
+users.insert(7, "lottery_numbers")
 # 8. Change Erik's hometown to Edinburgh
+
 # 9. Add a pet dog to Erik called "fluffy"
+
 # 10. Add another person to the users dictionary
